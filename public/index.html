@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/images/dijutech_logo.png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/css/style.css" />
+
+    <link rel="stylesheet" href="../src/css/animation.css" />
+    <title>DijuTech Solutions</title>
+  </head>
+  <p class="button-animate"></p>
+  <body id="chane">
+    <!-- <div class="bg-img"> -->
+    <header>
+      <span>
+        <a
+          href=""
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+          "
+        >
+          <img loading="lazy" src="/src/images/dijutech_logo.png" alt="" />
+          <b>DIJUTECH</b>
+        </a>
+      </span>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about" class="nav-link">About us</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contact us</a>
+      </nav>
+
+      <!-- cart -->
+      <div class="cart-icon" id="cartIcon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <a href="#products"
+        ><button class="menu-btn-lg button1">Shop Now</button></a
+      >
+
+      <!-- menu btn -->
+      <button class="menu-btn-sm"></button>
+    </header>
+
+    <main>
+      <section class="mainFlex text-focus-in" id="home">
+        <div class="mainFlex1">
+          <small class="smallmain">The Home automation</small>
+          <div class="logo-name">
+            <h1>DijuTech Solutions</h1>
+          </div>
+
+          <p style="font-size: 1.8rem">
+            Smart Home Solutions for a Safer Tomorrow.
+          </p>
+          <p class="mainptext">
+            Upgrade your home with cutting-edge home security and automation
+            solutions.
+          </p>
+
+          <div class="mainbtn">
+            <a href="#products"
+              ><button class="button1"><span>ORDER NOW</span></button></a
+            >
+
+            <a href="#about">
+              <button
+                class="button1"
+                style="
+                  background-color: transparent;
+                  color: whitesmoke;
+                  border: 2px solid whitesmoke;
+                "
+              >
+                LEARN MORE
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="mainFlex2">
+          <img
+            loading="lazy"
+            src="/src/images/picmain.png"
+            class="heartbeat"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- Moving blocks -->
+      <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+          <div class="marquee-wrapper">
+            <a href="https://facebook.com/profile.php?id=61563008013516">
+              <div class="marquee-item">
+                <img loading="lazy" src="/src/images/fb-icon.png" alt="" />
+                <span
+                  >Updates and <br />
+                  Special offers</span
+                >
+              </div>
+            </a>
+            <a href="https://instagram.com/dijutech_solutions/">
+              <div class="marquee-item">
+                <img loading="lazy" src="/src/images/Instagram.png" alt="" />
+                <span
+                  >See our Latest <br />
+                  Products in action</span
+                >
+              </div>
+            </a>
+            <a href="https://wa.me/c/2349137487240">
+              <div class="marquee-item">
+                <img loading="lazy" src="/src/images/WhatsApp.png" alt="" />
+                <span
+                  >Chat with us <br />
+                  for fast support
+                </span>
+              </div>
+            </a>
+            <a
+              href="https://tiktok.com/@dijutech_solutions?_t=ZM-8wN6SWcnzLZ&_r=1"
+            >
+              <div class="marquee-item">
+                <img loading="lazy" src="/src/images/TikTok.png" alt="" />
+                <span
+                  >Watch smart <br />
+                  home tips</span
+                >
+              </div>
+            </a>
+            <a href="">
+              <div class="marquee-item">
+                <img loading="lazy" src="/src/images/web_icon.png" alt="" />
+                <span
+                  >Visit our websites <br />
+                  to explore more</span
+                >
+              </div>
+            </a>
+          </div>
+        </marquee>
+      </div>
+    </main>
+
+    <!-- ABout Us -->
+    <section class="abt-bg" id="about">
+      <h2>About Us</h2>
+      <div class="abtflex">
+        <!-- content images/videos  -->
+        <div class="abtImg">
+          <img
+            loading="lazy"
+            src="/src/images/pic-service-diju.png"
+            alt=""
+            id="changeMediam"
+          />
+          <video id="changeMediav" controls style="display: none">
+            <source src="/src/images/smarthovevideo.mp4" type="video/mp4" />
+          </video>
+          <!-- A play button to display video -->
+          <button class="playbtn floatbtn_play" id="play-btn">
+            <svg
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              width="20px"
+            >
+              <path
+                d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- content text/blcks/btns  -->
+        <div class="abtContent">
+          <p class="abt-welcome" style="color: black">Welcome to DijuTech</p>
+          <p>
+            DijuTech Solutions is a trusted name in home automation, helping you
+            secure and upgrade your space with smart technology. We specialize
+            in smart locks, security cameras, smart lights, and other
+            cutting-edge solutions designed to make your life easier, safer, and
+            more connected.
+          </p>
+          <p style="margin-top: 23px">
+            Our mission is to bring smart living to every home in Nigeria and
+            beyond. With reliable products and expert installation, we make
+            modern living accessible, affordable, and secure.
+          </p>
+          <nav class="abtR-flex">
+            <div class="abtR-1">
+              <span>120+</span>
+              <b>Satisfied Clients</b>
+            </div>
+            <div class="abtR-1">
+              <span>200+</span>
+              <b>Homes Secured</b>
+            </div>
+          </nav>
+          <div class="about-btn">
+            <a href="#offer"
+              ><button class="button1"><span>Buy Now</span></button></a
+            >
+            <span>
+              <img
+                src="/src/images/arrow-img.png"
+                alt=""
+                width="80px"
+                height="60px"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products and services -->
+    <section id="products">
+      <div class="container">
+        <h4>Products & Services</h4>
+        <p>Browse our selection of Smart products we Offer.</p>
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be loaded here -->
+          <img loading="lazy" src="" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+      <div class="cart-header">
+        <div class="cart-title">Your Cart</div>
+        <button class="close-cart" id="closeCart">&times;</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <!-- Cart items will be loaded here -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cartTotal">₦0.00</span>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+
+    <!-- Checkout Form -->
+    <div class="checkout-form-container" id="checkoutFormContainer">
+      <div class="checkout-form">
+        <h2 style="margin-bottom: 20px">Checkout</h2>
+        <form id="checkoutForm">
+          <div class="form-group">
+            <label class="form-label" for="name">First Name</label>
+            <input class="form-input" type="text" id="fname" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="name">Last Name</label>
+            <input class="form-input" type="text" id="lname" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-input" type="tel" id="phone" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="altPhone"
+              >Alternative Phone Number</label
+            >
+            <input class="form-input" type="tel" id="altPhone" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="address">Address</label>
+            <textarea
+              class="form-input"
+              id="address"
+              rows="3"
+              required
+              placeholder="Please Input your ( State, City, Specific Address )"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-order">Submit Order</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button" id="whatsappButton">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+      Order submitted successfully!
+    </div>
+
+    <!-- Special offer -->
+    <section class="special-offer-bg" id="offer">
+      <h5>Special Offer</h5>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="card">
+            <!-- First Carousel -->
+            <div style="background-color: #324b4b">
+              <div class="special-flex">
+                <div class="spcflex-1">
+                  <img loading="lazy" src="/src/images/D-6W-pic.png" alt="" />
+                </div>
+
+                <div class="spcflex-2">
+                  <p class="special-tag">10% Special Discount</p>
+                  <span style="font-weight: bolder">Home automation </span>
+                  <h2>D-6W Smart Door Lock.</h2>
+                  <p class="spcflex-p">
+                    Features 3D facial recognition for added security. Captures
+                    and sends the visitor’s image to your phone, allowing you to
+                    unlock or decline access from anywhere.
+                  </p>
+                  <a href="https://wa.me/p/28945480021733070/2349137487240"
+                    ><button class="button1">Order Now</button></a
+                  >
+
+                  <div>
+                    <div class="offer-card">
+                      <p>This offer expires in:</p>
+                      <div class="countdown">
+                        <span class="Days">0</span
+                        ><span class="label">D</span> :
+                        <span class="hours">00</span
+                        ><span class="label">h</span> :
+                        <span class="minutes">00</span
+                        ><span class="label">m</span> :
+                        <span class="seconds">00</span
+                        ><span class="label">s</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="time-limit-num">
+                    <p
+                      style="
+                        color: rgb(226, 13, 13);
+                        font-weight: 600;
+                        text-shadow: 1px 1px 2px black;
+                      "
+                    >
+                      ₦200,700
+                    </p>
+                    <p class="cancel-price">₦223,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Second Carousel -->
+            <div style="background-color: #324b4b">
+              <div class="special-flex">
+                <div class="spcflex-1">
+                  <img
+                    loading="lazy"
+                    src="/src/images/small-handle-tuya.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="spcflex-2">
+                  <p class="special-tag">10% Special Discount</p>
+                  <span style="font-weight: bolder">Home automation </span>
+                  <h2>Tuya Small Handle Lock.</h2>
+                  <p class="spcflex-p">
+                    Secure your door with this compact smart lock. Unlock with
+                    fingerprint, PIN, card, or key. Simple, smart, and perfect
+                    for homes and offices.
+                  </p>
+                  <a href="https://wa.me/p/9526347720744563/2349137487240"
+                    ><button class="button1">Order Now</button></a
+                  >
+
+                  <div>
+                    <div class="offer-card">
+                      <p>This offer expires in:</p>
+                      <div class="countdown">
+                        <span class="Days">0</span
+                        ><span class="label">D</span> :
+                        <span class="hours">00</span
+                        ><span class="label">h</span> :
+                        <span class="minutes">00</span
+                        ><span class="label">m</span> :
+                        <span class="seconds">00</span
+                        ><span class="label">s</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="time-limit-num">
+                    <p
+                      style="
+                        color: rgb(226, 13, 13);
+                        font-weight: 600;
+                        text-shadow: 1px 1px 2px black;
+                      "
+                    >
+                      ₦124,200
+                    </p>
+                    <p class="cancel-price">₦138,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- contact us page -->
+    <section class="contact-section" id="contact">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>
+          Ready to make your home smarter? Reach out to DijuTech Solutions
+          today, and let's transform your living space into a modern, secure,
+          and convenient smart home.
+        </p>
+      </div>
+
+      <div class="container2">
+        <div class="row2">
+          <div class="contact-info2">
+            <div class="contact-info-item2">
+              <div class="contact-info-icon2">
+                <i class="fas fa-home"></i>
+              </div>
+
+              <div class="contact-info-content2">
+                <h4>Address</h4>
+                <p>
+                  No 2/4 Bomardek Avenue,<br />
+                  Ago palace way, Ilasamaja, <br />Lagos state, 102214
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item2">
+              <div class="contact-info-icon2">
+                <i class="fas fa-phone"></i>
+              </div>
+
+              <div class="contact-info-content2">
+                <h4>Phone</h4>
+                <p>091-3748-7240</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item2">
+              <div class="contact-info-icon2">
+                <i class="fas fa-envelope"></i>
+              </div>
+
+              <div class="contact-info-content2">
+                <h4>Email</h4>
+                <p>digitajustice@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form">
+            <h2>Send Message</h2>
+            <input
+              type="text"
+              name="from_name"
+              placeholder="Full Name"
+              required
+            />
+            <input type="email" name="reply_to" placeholder="Email" required />
+            <textarea
+              name="message"
+              placeholder="Type your Message..."
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+
+          <div class="contact-content">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <img loading="lazy" src="/src/images/WhatsApp.png" alt="" />
+              </div>
+              <h3 class="contact-title">WhatsApp</h3>
+              <p class="contact-info">
+                Chat with us directly on WhatsApp for quick responses
+              </p>
+              <a
+                href="https://wa.me/2349137487240"
+                class="contact-link"
+                target="_blank"
+                >Message Us</a
+              >
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="icon">📞</i>
+              </div>
+              <h3 class="contact-title">Phone</h3>
+              <p class="contact-info">
+                Call us anytime for inquiries or support
+              </p>
+              <a href="tel:+2349137487240" class="contact-link">Call us Now</a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="icon">✉️</i>
+              </div>
+              <h3 class="contact-title">Email</h3>
+              <p class="contact-info">Send us an email with your questions</p>
+              <a href="mailto:digitajustice@gmail.com" class="contact-link"
+                >Email Us</a
+              >
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <img loading="lazy" src="/src/images/Instagram.png" alt="" />
+              </div>
+              <h3 class="contact-title">Instagram</h3>
+              <p class="contact-info">Follow us to see our latest projects</p>
+              <a
+                href="https://instagram.com/dijutech_solutions/"
+                class="contact-link"
+                target="_blank"
+                >Follow us Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; Copyright <span class="year"></span>. All rights reserved.
+        Powered by DijuTech Solutions.
+      </p>
+    </footer>
+
+    <!-- EmailJS Script -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      // Initialize EmailJS with your Public Key
+      (function () {
+        emailjs.init({
+          publicKey: "i4z-2k9QOBYWO4znV",
+        });
+      })();
+    </script>
+    <script src="/src/js/script.js"></script>
+    <script src="/src/js/products.js"></script>
+  </body>
+</html>
